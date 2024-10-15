@@ -82,7 +82,7 @@ function App() {
       {/* -------------------------------------------------------- */}
 
       <main>
-        <h1>Life Goals</h1>
+        <h1>Objectifs</h1>
         <ConfirmDeleteModal
           show={showModalDelete}
           handleClose={() => setShowModalDelete(false)}

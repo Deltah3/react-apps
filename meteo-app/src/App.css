@@ -1,0 +1,59 @@
+.App {
+  background: linear-gradient(#000000,20%,#000138);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  filter: grayscale();
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.weather-block {
+    background-color: #ffffff4d;
+    border-radius: 20px;
+    margin: 5vh;
+    padding: 5vh;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  width: 300px;
+}

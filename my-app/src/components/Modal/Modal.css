@@ -19,9 +19,13 @@
     min-width: 300px;
   }
   
-  .modal-close-btn {
-    margin-top: 10px;
+  .save-btn {
     padding: 10px;
+  }
+
+  .modal-close-btn {  
+    margin-top: 10px;
+    padding: 20px;
     background-color: #f44336;
     color: white;
     border: none;
@@ -29,3 +33,10 @@
     cursor: pointer;
   }
   
+  input {
+    width: 40vh;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }

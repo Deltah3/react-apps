@@ -12,7 +12,7 @@ const EditModal = ({ show, handleClose, inputGoal, setInputGoal, saveGoalHandler
             value={inputGoal}
             onChange={(e) => setInputGoal(e.target.value)}
             />
-            <button onClick={saveGoalHandler}>Save</button>
+            <button className="save-btn" onClick={saveGoalHandler}>Save</button>
         </Modal>
     );
   };
