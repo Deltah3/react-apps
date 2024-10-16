@@ -12,7 +12,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <main>
-        <div class="weather-block"> 
+        <div className="weather-block"> 
           <Weather />
         </div>
       </main>
